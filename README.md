@@ -29,7 +29,7 @@ npm install
 Start application
 
 ```
-node server.js
+npm run dev
 ```
 
 ## Built With
