@@ -10,6 +10,7 @@
       <RouterView />
     </main>
   </div>
+  <el-button type="primary" disabled>Primary</el-button>
 </template>
 
 <script setup>
