@@ -2,11 +2,12 @@
     $colors: (
         'primary':(
           //主色
-        'base':#27ba9b,
+        //'base':#27ba9b,
+        'base':#A28351,
         ),
         'success':(
           //成功色
-        'base':#1dc779,
+        'base':#A28351,
         ),
         'warning': (
           //警告色
@@ -16,5 +17,13 @@
           // 危险色
         'base': #e26237,
         ),
+
+        //'info': (
+        //  // 危险色
+        //'base': #e26237,
+        //),
     )
 );
+:root {
+  --el-text-color-primary: #182e4f; /* 修改 el-text-color-primary 变量 */
+}

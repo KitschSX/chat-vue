@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
 .iframe-container {
-  width: 100%;
+  width: 500px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -26,6 +26,6 @@ export default {
   box-shadow: none; /* 去除阴影 */
   outline: none; /* 去除聚焦时的外框 */
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 </style>

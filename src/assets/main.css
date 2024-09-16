@@ -15,9 +15,9 @@ html, body {
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
   font-weight: normal;
-  width: 100%; /* 确保填满父容器 */
+  width: auto; /* 确保填满父容器 */
   height: 100vh; /* 确保填满视口高度 */
   box-sizing: border-box; /* 确保内边距包含在宽度内 */
   display: flex;
@@ -29,7 +29,7 @@ html, body {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #A28351;
   transition: 0.4s;
   padding: 3px;
 }
@@ -40,7 +40,7 @@ a,
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   body {
     display: flex;
     justify-content: center;
